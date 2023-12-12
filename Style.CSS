@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.queston-box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.q-img{
+    max-width: 50%;
+    max-height: 40vmin;
+    margin-top: 2vmin;
+    border-radius: 7px;
+}
+.a{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 2vmin;
+    column-gap: 2vmin;
+}
+.a1{
+    background-color: brown;
+    font-size: 2vmin;
+    padding: 1vmin;
+    font-weight: bold;
+    border-radius: 7px;
+    color: cornsilk;
+    transition: .3s ease;
+}
+.q-txt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4vmin;
+}
+.a1:hover{
+    background-color: purple;
+    cursor: pointer;
+}
+.submit{
+    width: 20vmin;
+    height: 8vmin;
+    padding: 1vmin;
+    font-size: 4vmin;
+    border-radius: 5px;
+    background-color: gold;
+    transition: .3s ease;
+}
+.submit:hover{
+    background-color: ghostwhite;
+}
